@@ -1,0 +1,84 @@
+I.	USE CASE DIAGRAM
+
+In the Unified Modelling Language (UML), a use case diagram can summarize the details of your system's users (also known as actors) and their interactions with the system. To build one, you'll use a set of specialized symbols and connectors. An effective use case diagram can help your team discuss and represent:
+•	Scenarios in which your system or application interacts with people, organizations, or external systems
+•	Goals that your system or application helps those entities (known as actors) achieve
+•	The scope of your system
+A use case diagram doesn't go into a lot of detail—for example, don't expect it to model the order in which steps are performed. Instead, a proper use case diagram depicts a high-level overview of the relationship between use cases, actors, and systems. Experts recommend that use case diagrams be used to supplement a more descriptive textual use case.
+UML is the modelling toolkit that you can use to build your diagrams. Use cases are represented with a labelled oval shape. Stick figures represent actors in the process, and the actor's participation in the system is modelled with a line between the actor and use case. To depict the system boundary, draw a box around the use case itself.
+UML use case diagrams are ideal for:
+•	Representing the goals of system-user interactions
+•	Defining and organizing functional requirements in a system
+•	Specifying the context and requirements of a system
+
+
+II.	SEQUENCE DIAGRAM
+
+A sequence diagram or system sequence diagram (SSD) shows object interactions arranged in time sequence in the field of Software Engineering. It depicts the objects involved in the scenario and the sequence of messages exchanged between the objects needed to carry out the functionality of scenario. Sequence diagrams are typically associated with use case realizations in the logical view of the system under development. Sequence diagrams are sometimes called event diagrams or event scenarios.
+For a particular scenario of a use case, the diagrams show the events that external actors generate, their order, and possible inter-system events. All systems are treated as a black box, the diagram places emphasis on events that cross the system boundary from actors to systems. A system sequence diagram should be done for the main success scenario of the use case, and frequent or complex alternative scenarios.
+Sequence diagrams are a popular dynamic modeling solution in UML because they specifically focus on lifelines, or the processes and objects that live simultaneously, and the messages exchanged between them to perform a function before the lifeline ends.
+These models show the logic behind the actors (people who affect the system) and the system in performing the task. Reading a sequence diagram begins at the top with the actor(s) or the system(s) (which is located at the top of the page). Under each actor or system there are long dotted line called lifelines, which are attached to them. Actions are performed with lines that extend between these lifelines. When an action line is connected to a lifeline it shows the interaction between the actor or system. Messages will often appear at the top or bottom of a system sequence diagram to illustrate the action in detail. For example, the actor could request to log in, this would be represented by login (username, password). After each action is performed, the response or next action is located under the previous one. As you read down the lines you will see in detail how certain actions are performed in the provided model.
+
+
+
+III.	CLASS DIAGRAM
+
+Class diagram is a static diagram. It represents the static view of an application. Class diagram is not only used for visualizing, describing, and documenting different aspects of a system but also for constructing executable code of the software application.
+Class diagram describes the attributes and operations of a class and also the constraints imposed on the system. The class diagrams are widely used in the modelling of object-oriented systems because they are the only UML diagrams, which can be mapped directly with object-oriented languages.
+Class diagram shows a collection of classes, interfaces, associations, collaborations, and constraints. It is also known as a structural diagram.
+Purpose of Class Diagrams
+The purpose of class diagram is to model the static view of an application. Class diagrams are the only diagrams which can be directly mapped with object-oriented languages and thus widely used at the time of construction.
+UML diagrams like activity diagram, sequence diagram can only give the sequence flow of the application, however class diagram is a bit different. It is the most popular UML diagram in the coder community.
+The purpose of the class diagram can be summarized as −
+•	Analysis and design of the static view of an application.
+•	Describe responsibilities of a system.
+•	Base for component and deployment diagrams.
+•	Forward and reverse engineering.
+
+
+
+IV.	COMPONENT DIAGRAM
+
+Component diagrams are different in terms of nature and behaviour. Component diagrams are used to model the physical aspects of a system. Now the question is, what are these physical aspects? Physical aspects are the elements such as executables, libraries, files, documents, etc. which reside in a node.
+Component diagrams are used to visualize the organization and relationships among components in a system. These diagrams are also used to make executable systems.
+Purpose of Component Diagrams
+Component diagram is a special kind of diagram in UML. The purpose is also different from all other diagrams discussed so far. It does not describe the functionality of the system but it describes the components used to make those functionalities.
+Thus, from that point of view, component diagrams are used to visualize the physical components in a system. These components are libraries, packages, files, etc.
+Component diagrams can also be described as a static implementation view of a system. Static implementation represents the organization of the components at a particular moment.
+A single component diagram cannot represent the entire system but a collection of diagrams is used to represent the whole.
+The purpose of the component diagram can be summarized as −
+•	Visualize the components of a system.
+•	Construct executables by using forward and reverse engineering.
+•	Describe the organization and relationships of the components.
+How to Draw a Component Diagram?
+Component diagrams are used to describe the physical artifacts of a system. This artifact includes files, executables, libraries, etc
+
+
+V.	DEPLOYMENT DIAGRAM 
+
+Deployment diagram, you need to first become familiar with the following deployment diagram notations and deployment diagram elements.
+Nodes
+A node, represented as a cube, is a physical entity that executes one or more components, subsystems or executables. A node could be a hardware or software element.
+Artifacts
+Artifacts are concrete elements that are caused by a development process. Examples of artifacts are libraries, archives, configuration files, executable files etc.
+Communication Association
+This is represented by a solid line between two nodes. It shows the path of communication between nodes.
+Devices
+A device is a node that is used to represent a physical computational resource in a system. An example of a device is an application server.
+Deployment Specification
+Deployment specifications is a configuration file, such as a text file or an XML document. It describes how an artifact is deployed on a node.
+
+
+VI.	ACTIVITY DIAGRAM
+
+Activity diagrams are graphical representations of workflows of stepwise activities and actions with support for choice, iteration and concurrency. In the Unified Modelling Language, activity diagrams are intended to model both computational and organizational processes (i.e., workflows), as well as the data flows intersecting with the related activities. Although activity diagrams primarily show the overall flow of control, they can also include elements showing the flow of data between activities through one or more data stores Activity diagrams are constructed from a limited number of shapes, connected with arrows. The most important shape types:
+•	ellipses represent actions;
+•	diamonds represent decisions;
+•	bars represent the start (split) or end (join) of concurrent activities;
+•	a black circle represents the start (initial node) of the workflow;
+•	an encircled black circle represents the end (final node).
+Arrows run from the start towards the end and represent the order in which activities happen.
+Programmers use activity diagrams (advanced version of a flowchart) to depict workflows. An activity diagram is used by developers to understand the flow of programs on a high level. It also enables them to figure out constraints and conditions that cause particular events. A flow chart converges into being an activity diagram if complex decisions are being made.
+Brevity is the soul of wit. We need to convey a lot of information with clarity and make sure it is short. So an activity diagram helps people on both sides i.e. Businessmen and Developers to interact and understand systems.
+
+
