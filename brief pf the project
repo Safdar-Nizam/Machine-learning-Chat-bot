@@ -1,0 +1,71 @@
+CHAPTER 1
+INTRODUCTION
+
+This chapter gives an outline about the aim, objectives, background and operation environment of the system.
+1.1	OBJECTIVES
+The project aims and objectives that will be achieved  after completion  of  this  project  are discussed in this subchapter. The aims and objectives are as follows:
+●	Creating a training algorithm for the Bot.
+●	Creating a set of predefined inputs and their respective outputs.
+●	Storing all previous inputs so that the train algorithm can use them.
+●	Creating a separate Chatbot model to store the trained model.
+●	Making a simple user interface which is easily understandable.
+●	Making sure the chatbot also gives voice back responses for ease of understanding.
+●	The replies should be precise enough to make the user believe that they are talking to another human.
+
+  1.2 METHODOLOGIES
+There are considerable methodologies and techniques for this topic. 
+          The use of Natural Language Processing (NLP) is one of the most fundamental AI techniques used in chatbots. It refers to how to program computers to process and analyze large amounts of natural language data. When applied to chatbots, it allows them to speak and understand people as they talk, as a language  
+
+                                                 CHAPTER 2
+                                        LITERATURE SURVEY
+
+2.1 EXISTING SYSTEM
+●	The existing system is dependent on using Information Retrieval System (IRS).
+●	IRS retrieves in a document retrieval format which returns a set of relevant documents, real information is buried inside documents.
+●	IRS typically uses a bag of words model of the source text.
+●	Existing systems use complex methods and user interfaces.
+●	This makes it harder for the user to understand the concept and its implementation.
+
+
+2.2 PROPOSED SYSTEM 
+●	This application uses a technique called Information Extraction.
+●	Information Extraction’s main goal is to find out meaningful information from the document set.
+●	Typically based on some form of semantic analysis of the source text.
+●	This application’s main driver is the concept of Natural Language Processing (NLP).
+●	This system uses simple methods and easy to use user interfaces for better understanding of users.
+
+
+      
+CHAPTER 3
+SOFTWARE USED
+
+●	Python - Python is an interpreted, high level and general-purpose programming language. It was created by Guido van Rossum, and released in 1991. Python's design philosophy emphasizes code readability with its notable use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. Python can be used on a server to create web applications. Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management. It also features dynamic name resolution (late binding), which binds method and variable names during program execution.
+●	PyCharm - PyCharm is an integrated development environment (IDE) used in computer programming, specifically for the Python programming language. It is developed by the Czech company JetBrains (formerly known as IntelliJ).It provides code analysis, a graphical debugger, an integrated unit tester, integration with version control systems (VCSes), and supports web development with Django as well as data science with Anaconda.
+●	Command Prompt (CMD)- Command Prompt is a command line interpreter application available in most Windows operating systems. It's used to execute entered commands. Most of those commands automate tasks via scripts and batch files, perform advanced administrative functions, and troubleshoot or solve certain kinds of Windows issues. Command Prompt is officially called Windows Command Processor, but it's also sometimes referred to as the command shell or cmd prompt, or even by its filename, cmd.exe.
+
+ 
+CHAPTER – 4
+REQUIREMENTS
+
+4.1 CREATE A WORKING TRAINING ALGORITHM
+The requirements to create a working training algorithm are-
+●	Any code editor (PyCharm preferred)
+●	Python installed in a virtual environment
+●	Some other python packages required are:
+(a)	NLTK Package
+(b)	WordNetLemmatizer Package
+(c)	Numpy
+(d)	Keras
+4.2 RUNNING THE APP SUCCESSFULLY ON CMD
+	A successful training algorithm as well as a proper set of predefined inputs and outputs are required to get the GUI running on CMD and use it. It works best when viewed on Laptop and PC.
+4.3 SYSTEM REQUIREMENTS
+Software-
+●	Microsoft Windows: Required: Windows Server 2019, Windows Server 2016 and Windows 10.
+●	VS code, pyshell, pycharm, sublime.
+●	Python, Keras, OpenCV GUI.
+Hardware-
+●	Computer and processor:  Intel Pentium-compatible CPU that is:
+●	1.4 GHz or higher Hyper-threading and multi-core processors are supported.
+Computers based on CPUs that are compatible with the AMD64 (x86-64) and Extended Memory 64-bit Technology (EM64T) processor architecture are considered x64-based systems.
+●	Memory: 4 GB or more.
+●	Hard disk: 10 GB of available hard disk space for a complete installation, including the operating system and all prerequisite software.
